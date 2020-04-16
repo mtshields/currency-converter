@@ -1,0 +1,20 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "A JavaScript currency converter",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SH13LDS/currency-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SH13LDS/currency-converter/issues"
+  },
+  "homepage": "https://SH13LDS.github.io//currency-converter"
+}
