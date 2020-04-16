@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SH13LDS/currency-converter/issues"
   },
-  "homepage": "https://SH13LDS.github.io//currency-converter"
+  "homepage": "https://SH13LDS.github.io/currency-converter",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
