@@ -20,9 +20,17 @@ const convert = () => {
     });
 };
 
+const swap = () => {
+  const temp = currencyEle_base.value;
+  currencyEle_base.value = currencyEle_target.value;
+  currencyEle_target.value = temp;
+  convert();
+};
+
 currencyEle_base.addEventListener('change', convert);
 amountEle_base.addEventListener('input', convert);
 currencyEle_target.addEventListener('change', convert);
 amountEle_target.addEventListener('input', convert);
+swapEle.addEventListener('click', swap);
 
 convert();
