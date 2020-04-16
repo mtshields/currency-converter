@@ -6,4 +6,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-} */
+}
+
+#rate {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
